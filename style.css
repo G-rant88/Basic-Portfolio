@@ -1,0 +1,23 @@
+h1, h2, h3{
+	font-family: Georgia;
+	color: #4aaaa5;
+}
+
+p {
+	font-family: Arial;
+	color: #777777;
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+footer {
+	background-color: #666666;
+}
+
+body {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
