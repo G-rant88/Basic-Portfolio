@@ -1,12 +1,8 @@
-h1, h2, h3{
+h1, h2, h3 {
 	font-family: Georgia;
 	color: #4aaaa5;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-}
 
 p, #message, #name, #email, form {
 	font-family: Arial;
@@ -18,20 +14,21 @@ header {
 	border-color: #cccccc;
 }
 
-footer {
-	background-color: #666666;
-}
+
 
 #content {
 	
-	width: 650px;
-	margin: 0;
-	padding: 0;
+	width: 55%;
+	box-sizing: border-box;
+	padding: 10px;
 	border: 1px solid white;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	float: left;
 	margin-left: 100px;
+	margin-bottom: 10px;
+	
+
 }
 
 #message {
@@ -41,12 +38,17 @@ footer {
 
 #sidebar {
 
-	float: right;
-	width: 270px;
+	float: left;
+	width: 22%;
 	border: 1px solid white;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	margin-right: 200px;
+	margin-left: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+
+	
+
 
 
 }
@@ -65,20 +67,47 @@ h1 {
 	padding: 10px;
 }
 
-#background {
+body {
 	background-color: #ddd7d7;
+
 }
 
 .icon {
 	height: 50px;
 	width: 50px;
+
+}
+
+ #imgs {
+ 	padding-left: 20px;
+ 	padding-top: 10px;
+ 	clear: both;
+ }
+header {
+	background-color: white;
 }
 
 footer {
-	text-align: center;
-	left: 0px;
-	bottom: 0px;
-	height: 50px;
-	width: 100px;
 	
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #666666;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	clear: both;
+	margin-top: 10px;
+	padding-top: 15px;
+	text-align: center;
+	
+
+}
+
+#background {
+	width: 100%;
+	clear: both;
+	margin-bottom: 10px;
+
+
 }
