@@ -285,7 +285,7 @@ form {
     top: 355px;
 }
 
-.border {
+/*.border {
 	border-right: 2px solid gray;
 	height: 5px;
 	box-sizing: border-box;
