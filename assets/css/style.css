@@ -78,9 +78,11 @@ h1 {
 }
 
 body {
-	background-color: #ddd7d7;
+
+	background-image: url("../images/bgimg.png");
 	width: 100%;
 	margin: 0;
+
 }
 
 
@@ -113,10 +115,10 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 50px;
+	height: 70px;
 	clear: both;
 	margin-top: 10px;
-	padding-top: 15px;
+	padding-top: 26px;
 	text-align: center;
 	color: white;
 	margin-bottom: 0;
@@ -162,10 +164,11 @@ ul {
     font-family: Arial;
 	color: #777777;
     text-align: right;
-    padding-top: 25px;
     padding-left: 22px;
-    font-size: 18px;
-    padding-right: 20px;
+    font-size: 15px;
+    padding-right: 29px;
+    opacity: .7;
+    padding-top: 5px;
 
     
 }
@@ -191,6 +194,10 @@ hr {
 	color: gray;
 	opacity: .6;
 	width: 95%;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 #contact {
@@ -285,9 +292,19 @@ form {
     top: 355px;
 }
 
-/*.border {
-	border-right: 2px solid gray;
-	height: 5px;
-	box-sizing: border-box;
+.border {
+	height: 20px;
+	top: 20px;
+	position: relative;
 	
+	
+}
+
+
+li+li {
+	border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+#sidehr {
+	opacity: .3;
 }
