@@ -78,9 +78,11 @@ h1 {
 }
 
 body {
-	background-color: #ddd7d7;
+
+	background-image: url("../images/bgimg.png");
 	width: 100%;
 	margin: 0;
+
 }
 
 
@@ -113,10 +115,10 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 50px;
+	height: 70px;
 	clear: both;
 	margin-top: 10px;
-	padding-top: 15px;
+	padding-top: 26px;
 	text-align: center;
 	color: white;
 	margin-bottom: 0;
@@ -151,8 +153,7 @@ ul {
     height: 70px;
     overflow: hidden;
     background-color: white;
-    margin-top: 0;
-  
+    margin: auto;  
 
 }
 
@@ -163,10 +164,11 @@ ul {
     font-family: Arial;
 	color: #777777;
     text-align: right;
-    padding-top: 25px;
     padding-left: 22px;
-    font-size: 18px;
-    padding-right: 20px;
+    font-size: 15px;
+    padding-right: 29px;
+    opacity: .7;
+    padding-top: 5px;
 
     
 }
@@ -192,6 +194,10 @@ hr {
 	color: gray;
 	opacity: .6;
 	width: 95%;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 #contact {
@@ -230,12 +236,15 @@ form {
 	opacity: .65;
 }
 
+
+	
 .gallery {
 	width: 46.5%;
 	height: 33.33333%;
-	float: left;
+	box-sizing: border-box;
 	margin: 10px;
-	position: relative;
+	float: left;
+
 }
 
 #hrportfolio {
@@ -246,6 +255,56 @@ form {
 	float: left;
     width: 292px;
     height: 50px;
-    font-size: 20px;   
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 140px;
 }
 
+.imgfloat {
+
+	position: relative;
+		box-sizing: border-box;
+		float: left;
+		overflow: hidden;
+
+}
+
+#rome {
+
+	left: 322px;
+    top: 140px;
+}
+
+#florence {
+	left: 10px;
+    top: 355px;
+}
+
+#israel {
+	left: 10px;
+    top: 570px;
+}
+
+#sant {
+
+	left: 322px;
+    top: 355px;
+}
+
+.border {
+	height: 20px;
+	top: 20px;
+	position: relative;
+	
+	
+}
+
+
+li+li {
+	border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+#sidehr {
+	opacity: .3;
+}
